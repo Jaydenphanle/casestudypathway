@@ -1,10 +1,120 @@
-Q1: Bạn là ai 
-Q2: Vì sao bạn lại là con người
-Q3: Lý do bạn chọn lập trình?
-Q4: Bạn thích ngôn ngữ nào?
-Q5: Bạn có thích Máy tính ko?
-Q6: Bạn có biết về binary number?
-Q7: Bạn Có biết về trí tuệ nhân tạo ko?
-Q8: Bạn có dùng trí tuệ nhân tạo ko?
-Q9: Bạn ủng hộ Nga hay Ukraine?
-Q10: Bạn có thích trung quốc ko?
+while True:    
+    print("Welcome to the challenge of invention industry")
+    print("Lets have some information about you before we start the question")
+    name = input("What your name: ")
+    age = int(input("Age: "))
+    print("Let move on to the question!")
+
+
+    # first question 
+    print("When is apple invented? \n A: April 1, 1976, Los Altos, California, United States \n B: April 1, 1972, Los Altos, HCM, United States \n C: June 1, 1976, Los Altos, California, Canada \n D: All of these correct")
+    a = input("Your answer: ")
+    score = 0
+    if a == "A":
+        print("You got a correct answer")
+        score +=2
+    else: 
+        print("Incorrect answer ")
+        score -= 1
+
+    # Second question 
+    print("When is Mcdonald invented? \n A: April 15, 1955, Des Plaines, Illinois, Japan \n B: April 15, 1955, Des Plaines, Illinois, United States \n C: April 10, 1955, Des Plaines, Illinois, United States \n D: All of these correct")
+    b = input("Your answer: ")
+    if b == "B":
+        print("You got a correct answer")
+        score +=2
+    else: 
+        print("Incorrect answer ")
+        score-= 1
+
+    # Third question 
+    print("When is computer invented? \n A: 1945 \n B: 1822 \n C: 1973 \n D: All of these correct")
+    c = input("Your answer: ")
+    if c == "D":
+        print("You got a correct answer")
+        score +=2
+    else: 
+        print("Incorrect answer ")
+        score-= 1
+
+    # Fourth question 
+    print("When is car invented? \n A: 1886 \n B: 1930 \n C: 2000 \n D: 1885")
+    d = input("Your answer: ")
+    if d == "A":
+        print("You got a correct answer")
+        score +=2
+    else: 
+        print("Incorrect answer ")
+        score-= 1
+
+    # Fifth question 
+    print("When is phone invented? \n A: 2007 \n B: 1945 \n C: 1849 \n D: 1920")
+    e = input("Your answer: ")
+    if e == "C":
+        print("You got a correct answer")
+        score +=2
+    else: 
+        print("Incorrect answer ")
+        score-= 1
+
+    # Sixth question 
+    print("When is Rubik invented? \n A: 1976 \n B: 1974 \n C: 1888 \n D: 1975")
+    f = input("Your answer: ")
+    if f == "B":
+        print("You got a correct answer")
+        score +=2
+    else: 
+        print("Incorrect answer ")
+        score-= 1
+
+    # Seventh question 
+    print("When is MP3 player invented? \n A: 1997 \n B: 2000 \n C: 1981 \n D: All of these correct")
+    g = input("Your answer: ")
+    if g == "A":
+        print("You got a correct answer")
+        score +=2
+    else: 
+        print("Incorrect answer ")
+        score-= 1
+
+    # Eighth question 
+    print("When is Social Media invented? \n A: 2016 \n B: 2009 \n C: 2000 \n D: 1997")
+    h = input("Your answer: ")
+    if h == "D":
+        print("You got a correct answer")
+        score +=2
+    else: 
+        print("Incorrect answer ")
+        score-= 1
+
+    # Nineth question 
+    print("When is Google invented? \n A: 1998 \n B: 1972 \n C:  1976 \n D: All of these correct")
+    l = input("Your answer: ")
+    if l == "A":
+        print("You got a correct answer")
+        score +=2
+    else: 
+        print("Incorrect answer ")
+        score-= 1
+
+    # Last question 
+    print("When is python invented? \n A: 1980 \n B: 1991 \n C: 1976 \n D: 1997")
+    v = input("Your answer: ")
+    if v == "B":
+        print("You got a correct answer")
+        score +=2
+    else: 
+        print("Incorrect answer ")
+        score-= 1
+
+
+
+    print("Challenger:", name)
+    print("Age: ", age)
+    print("The results: ", score)
+    
+    i = int(input("Wanna play again? (1/0)"))
+    if i == 1:
+        True
+    else: 
+        break
